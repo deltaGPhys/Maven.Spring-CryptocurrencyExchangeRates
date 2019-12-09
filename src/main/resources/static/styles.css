@@ -113,7 +113,7 @@ header {
 .btn {
     padding-left: 20px !important;
     margin-top: -15px;
-    max-width: 160px !important;
+    width: 170px !important;
 }
 
 h2 + p {

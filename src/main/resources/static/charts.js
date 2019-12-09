@@ -7,7 +7,7 @@ var chartColors = {
     grey: 'rgb(101, 103, 107)'
 };
 
-var duration = 600000;
+var duration = 1200000;
 var refresh = 30000;
 var delay = 1000;
 
