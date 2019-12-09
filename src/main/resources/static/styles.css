@@ -1,0 +1,146 @@
+/* General setup */
+
+@font-face {
+    font-family: 'Afta serif';
+    src: url('fonts/Aftaserif.woff2') format('woff2'),
+    url('fonts/Aftaserif.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aleo';
+    src: url('fonts/Aleo-Bold.woff2') format('woff2'),
+    url('fonts/Aleo-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+    float: left;
+    width: 50%;
+}
+
+aside {
+    float: left;
+    width: 30%;
+}
+
+nav {
+    float: left;
+    width: 20%;
+}
+
+footer {
+    clear: both;
+}
+
+header, section, aside, nav, footer {
+    padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+
+body {
+    font-family: "Afta serif";
+    line-height : 1.4em;
+    letter-spacing: .02em;
+    word-spacing: .08em;
+}
+
+h1,h2,h3 {
+    font-family: "Aleo";
+    letter-spacing: .08em;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+* {
+    font-size: 10px;
+}
+
+header {
+    text-align: center;
+}
+
+h2 + p {
+    text-indent: 20px;
+}
+
+a {
+    color: #b88;
+}
+
+a:visited {
+    color: #944;
+}
+
+a:hover {
+    color: #caa;
+    text-decoration: none;
+}
+
+a:focus {
+    color: #b99;
+    text-decoration: none;
+    outline: none;
+}
+
+a:active {
+    color: #ddd;
+    background-color: #944;
+}
+
+a[href*="http"] {
+    background: url('https://mdn.mozillademos.org/files/12982/external-link-52.png') no-repeat 100% 0;
+    background-size: 10px 10px;
+    padding-right: 13px;
+}
+
+li {
+    line-height : 1.4em;
+}
+
+ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 1.2em;
+    text-indent: -1.2em;
+}
+
+ul li:before {
+    content: "►";
+    display: block;
+    float: left;
+    width: 1.2em;
+    color: #944;
+}
