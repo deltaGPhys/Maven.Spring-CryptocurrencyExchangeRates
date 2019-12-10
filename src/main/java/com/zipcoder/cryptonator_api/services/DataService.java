@@ -12,11 +12,7 @@ public class DataService {
     DataRepository dataRepository;
 
     public Datum addDatum (Datum datum) {
-        if (uniqueDatum(datum)) {
-            return dataRepository.save(datum);
-        } else {
-            return null;
-        }
+        return (uniqueDatum(datum)) ? dataRepository.save(datum) : null;
     }
 
     public boolean uniqueDatum (Datum datum) {
