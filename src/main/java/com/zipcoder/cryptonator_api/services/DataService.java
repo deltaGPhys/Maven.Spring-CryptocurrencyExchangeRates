@@ -20,8 +20,8 @@ public class DataService {
     }
 
     public boolean uniqueDatum (Datum datum) {
-        Datum retreivedDatum = dataRepository.findDatumByCryptoAndTimestamp(datum.getCrypto(),datum.getTimestamp());
-        return (retreivedDatum == null) ? true : false;
+        Datum retrievedDatum = dataRepository.findDatumByCryptoAndTimestamp(datum.getCrypto(),datum.getTimestamp());
+        return (retrievedDatum == null) ? true : false;
     }
 
     public Iterable<Datum> getAllData () {
