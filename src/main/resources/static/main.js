@@ -1,4 +1,4 @@
-var baseUrl = "http://localhost:8080";
+var baseUrl = "https://gatescrypto.cfapps.io/";
 
 function timestampToDate (timestamp) {
     return Math.round(timestamp*1000);

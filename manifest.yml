@@ -1,0 +1,9 @@
+---
+applications:
+  - name: rd-pcfspring
+    memory: 1G
+    instances: 1
+    buildpack: java_buildpack
+    path: target/cryptoclient-1.0-SNAPSHOT.jar
+#    services:
+#      - rd-pcfspring-db
