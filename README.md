@@ -6,7 +6,7 @@ This is a front end and server that uses the [Cryptonator](https://www.cryptonat
 
 ### Use Notes
 * The backend polls Cryptonator each minute for updates quotes for 5 cryptocurrencies
-* It serves a view at `locaclhost:8080/`
+* It serves a view at `localhost:8080/`
 * This view is a streaming chart of the value and 24-hour volume of some or all of the 5 cryptocurrencies; Cryptonator only updates every minute or two, so be patient
 * Because the backend is H2, it will not be populated initially, but if you open the webpage after it has been running for a few minutes or more, you will see data
 * You can turn the cryptos on and off via the buttons; the scales can be quite different, so this is very helpful
