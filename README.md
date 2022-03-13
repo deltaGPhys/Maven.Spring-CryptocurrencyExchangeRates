@@ -2,6 +2,7 @@
 <a href="https://cryptogates.herokuapp.com/">Live Demo on Heroku</a>
 <br>
 
+
 This is a front end and server that uses the [Cryptonator](https://www.cryptonator.com/api/) API to get information about five cryptocurrencies. The front end displays streaming (chart.js/moment.js) live updates of price and 24-hour trading volume for the selected currency/currencies. The backend periodically polls Cryptonator, using a scheduled thread, stores that data, and the front end uses periodic Ajax requests to access that data and update the chart.
 
 ### Use Notes
